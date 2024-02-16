@@ -1,0 +1,151 @@
+:root{
+    --header-size:1.25rem;
+}
+html,
+body {
+	height: 100%;
+	background-color: gray !important;
+}
+
+html {
+	display: table;
+	margin: auto;
+}
+.page {
+	width: 20cm;
+	background-color: white;
+	padding: 0.85cm;
+}
+
+.title {
+	display: inline-block;
+	margin-bottom: 2rem;
+    text-transform: uppercase;
+}
+
+#title {
+	position: relative;
+	left: 10%;
+	font: 4rem 'Helvetica Neue', Helvetica, Arial, sans-Serif;
+	padding: 5px 15px;
+	margin: 0;
+}
+#subtitle {
+	position: relative;
+	font: 2rem 'Helvetica Neue', Helvetica, Arial, sans-Serif;
+	left: 10%;
+	font-weight: 500;
+	padding: 0 15px;
+	margin: 0;
+    font-style: italic;
+}
+
+.sidebar {
+	position: absolute;
+	width: 30% !important;
+}
+
+.topic {
+	font: 1rem 'Helvetica Neue', Helvetica, Arial, sans-Serif;
+}
+
+/* .topic-head:before {
+	content: '';
+	padding: 3px;
+	top: 0;
+	left: 0;
+	height: 1rem;
+	margin: 0 5px 0 0;
+	background-color: rgb(253, 126, 22);
+	z-index: -1;
+} */
+
+.topic-head {
+	font-size: 1.25rem;
+	font-weight: 600;
+}
+
+.topic-list > li{
+    margin:7px 0;
+}
+
+.entry-title {
+	font-size: 1.25rem;
+	font-weight: 600;
+}
+.date {
+	font-size: 1rem;
+	font-weight: 400;
+	position: relative;
+}
+.topic-subtitle {
+	font-size: 1rem;
+	font-weight: 600;
+}
+
+.headline {
+	font-weight: 600;
+}
+
+.main-content {
+	position: relative;
+	width: 60% !important;
+	margin-left: 30% !important;
+	padding: 2em;
+}
+
+a {
+	text-decoration: none;
+	color: rgb(253, 126, 22);
+	font-weight: 400;
+}
+
+.entry {
+	margin: 10px 0;
+}
+
+.entry > p {
+	margin: 0;
+}
+/* 
+.skill{
+    display:flex !important;
+} */
+
+.round {
+	border-radius: 50%;
+	width: 10px;
+	height: 10px;
+	margin: 2px;
+}
+
+.gray {
+	background-color: gray;
+}
+
+.black {
+	background-color: black;
+}
+
+.highlight {
+	background-color: #fd7e16;
+}
+
+.description {
+	font-size: 1rem;
+	font-weight: 400;
+    font-style: italic;
+    color: #353535;
+}
+.skill-list{
+    list-style: none;
+}
+
+.skill-list > li{
+    position: relative;
+    left:-30px;
+}
+.highlight-block{
+    width:10px;
+    height:1.25rem;
+}
